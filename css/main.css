@@ -42,6 +42,43 @@ video {
   vertical-align: middle;
 }
 
+.section {
+  display: flex;
+  background-color: var(--green);
+  margin: 10px;
+  padding: 5px;
+}
+
+.box {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 10px;
+  margin: 5px;
+}
+
+.section-1 {
+  flex-direction: row;
+}
+
+.section-2 {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.section-3 {
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.section-4 {
+  justify-content: space-around;
+}
+
+.section-5 {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 /* ====================================
 // base rules
 // ==================================== */
